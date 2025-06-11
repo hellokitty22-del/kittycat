@@ -1,0 +1,49 @@
+from abc import ABC
+from dataclasses import dataclass
+
+@dataclass
+class Location:
+    Y: int = 0
+    X: int = 0
+
+    def __str__(self):
+        return f"({self.Y},{self.X})"
+
+@dataclass
+class Size:
+    height: int = 0
+    width: int = 0
+
+
+class GeoFeature(ABC):
+    pass
+
+
+class Mountain(GeoFeature):
+    pass
+
+
+class Lake(GeoFeature):
+    pass
+
+
+class Crater(GeoFeature):
+    pass
+
+
+------
+import geo_features
+import math
+
+
+class Robot:
+    pass
+
+------
+
+import geo_features
+import robot
+
+if __name__ == "__main__":
+    pass
+
