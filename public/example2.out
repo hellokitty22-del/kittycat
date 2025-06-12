@@ -1,0 +1,12 @@
+> .....
+.m...
+....l
+..c..
+> move from (0,0) to (1,1)
+> explore mountain olympus mons
+> move from (1,1) to (2,3)
+> nothing to explore
+> Day 1-2: move (0,0) -> (0,1) -> (1,1)
+Day 3-6: explore mountain olympus mons
+Day 7-9: move (1,1) -> (1,2) -> (1,3) -> (2,3)
+> goodbye

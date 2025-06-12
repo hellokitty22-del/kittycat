@@ -1,0 +1,7 @@
+show map
+moveto 1 1
+explore
+display journey
+explore
+display journey
+quit

@@ -1,0 +1,7 @@
+moveto 0 0
+moveto 0 1
+moveto 1 1
+moveto 2 4
+moveto 0 4
+display journey
+quit
